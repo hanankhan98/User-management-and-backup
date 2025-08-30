@@ -3,8 +3,7 @@
 # function to display help menu
 show_help() {
     echo " User Management & Backup Script - By Hanan "
-    echo "Usage: $0 {add|del|mod|grp|backup} [options]"
-    echo ""
+    echo "Usage: $0 {add|del|mod|grp|backup}"
     echo " add <username>               Add a new user"
     echo " del <username>               Delete a user"
     echo " mod <username> <new_shell>   Modify user shell"
